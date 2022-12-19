@@ -1,0 +1,39 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/docker-existing-dockerfile
+{
+	"name": "Python3.9 Deve",
+	"context": "..",
+	"dockerFile": "../Dockerfile",
+	"remoteUser": "dev-user",
+	"workspaceFolder": "/home/dev-user",
+	"mounts": [
+		"source=C:/Users/nagafunem/Work/Git/Ubuntu2004_devcontainer,target=/home/dev-user,type=bind"
+	],
+	"extensions": [
+		"ms-python.python",
+		"oderwat.indent-rainbow",
+		"dzhavat.bracket-pair-toggler",
+		"mosapride.zenkaku",
+		"eamodio.gitlens"
+	],
+	"settings": {
+		"python.pythonPath": "/usr/local/bin/python3",
+		"workbench.editor.enablePreview": false,
+		"workbench.editor.enablePreviewFromQuickOpen": false,
+		"editor.fontSize": 15,
+		"editor.tabSize": 2,
+		"editor.renderWhitespace": "all",
+		"editor.renderControlCharacters": true,
+		"editor.acceptSuggestionOnEnter": "off",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.minimap.enabled": false,
+		"editor.bracketPairColorization.enabled": true,
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": true,
+		"window.zoomLevel": 0,
+		"terminal.integrated.scrollback": 10000,
+		"workbench.editor.untitled.hint": "hidden"
+	}
+}
