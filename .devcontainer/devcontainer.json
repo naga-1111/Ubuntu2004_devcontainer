@@ -13,8 +13,7 @@
 		"ms-python.python",
 		"oderwat.indent-rainbow",
 		"dzhavat.bracket-pair-toggler",
-		"mosapride.zenkaku",
-		"eamodio.gitlens"
+		"mosapride.zenkaku"
 	],
 	"settings": {
 		"python.pythonPath": "/usr/local/bin/python3",
